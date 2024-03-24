@@ -1,0 +1,69 @@
+header {
+  text-align: center;
+}
+
+nav {
+  background: lightblue;
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+  height: 50px;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+nav li a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+}
+nav li a:hover {
+  color: rebeccapurple;
+  background: white;
+  border-radius: 5px;
+}
+
+article {
+  background: rgb(134, 245, 173);
+  padding: 40px;
+  float: left;
+  width: 500px;
+  height: 270px;
+}
+article img {
+  height: 200px;
+  width: 250px;
+}
+aside {
+  float: left;
+  background: rgb(229, 229, 229);
+  padding: 40px;
+  width: 65%;
+  height: 270px;
+}
+footer {
+  background-color: yellowgreen;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+footer p {
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #61c4f9;
+}
+td {
+  background-color: #c2eaff;
+}
